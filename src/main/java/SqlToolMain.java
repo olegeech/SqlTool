@@ -4,6 +4,9 @@ import java.util.ArrayList;
 /**
  * Created by Oleg Tatarchuk on 23.06.2015.
  *
+ * Before run please install 'Microsoft JDBC Driver 4.0 for SQL Server' from \lib\sqljdbc_4.0.2206.100_enu.exe
+ *  and add dependencies
+ *
  * Initial version 1.5
  *   + Main logic implemented.
  *   + Works only with 'nchar' and 'numeric' data types ('datetime' data type NOT implemented).
