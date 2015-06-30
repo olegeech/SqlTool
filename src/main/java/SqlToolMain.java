@@ -108,7 +108,7 @@ public class SqlToolMain {
             //Iteration
             for (int i = 0; i < iterations; i++) {
                 //Bulk
-                for (int row = 0, iBulkSizeIterations = 1; row < dataSet.length; row++, iBulkSizeIterations++) {
+                for (int row = 0; row < dataSet.length; row++) {
                     sqlInsertValuesString.append("INSERT INTO "+tableName+" VALUES");
                     for (int col = 0; col < dataSet[row].length; col++) { //Bulk
                         if (col == 0) {
